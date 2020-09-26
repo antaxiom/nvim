@@ -1,10 +1,9 @@
 
 let g:startify_custom_header = [
-        \ '        _   ___    ________          __   ',
-        \ '       / | / / |  / / ____/___  ____/ /__ ',
-        \ '      /  |/ /| | / / /   / __ \/ __  / _ \',
-        \ '     / /|  / | |/ / /___/ /_/ / /_/ /  __/',
-        \ '    /_/ |_/  |___/\____/\____/\__,_/\___/ ',
+        \ '      _  __           __  ___         __     ____',
+        \ '     / |/ /__ ___    /  |/  /__ _____/ /    |_  /',
+        \ '    /    / -_) _ \  / /|_/ / _ `/ __/ _ \  _/_ <',
+        \ '   /_/|_/\__/\___/ /_/  /_/\_,_/\__/_//_/ /____/',
         \]
                                       
 let g:startify_session_dir = '~/.config/nvim/session'
@@ -31,12 +30,12 @@ function! StartifyEntryFormat()
     endfunction
 
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config/i3/config' },
+            \ { 'c': '~/suckless/dwm/config.def.h' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'z': '~/.zshrc' },
-            \ '~/Blog',
-            \ '~/Code',
-            \ '~/Pics',
+            \ '~/Documents',
+            \ '~/Documents/code/',
             \ ]
+
 
 let g:startify_enable_special = 0
