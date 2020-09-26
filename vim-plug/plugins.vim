@@ -103,6 +103,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'wesQ3/vim-windowswap'
     " Markdown Preview
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+    " Vim markdown
+    Plug 'godlygeek/tabular' | Plug 'plasticboy/vim-markdown'
     " Vim Wiki
     Plug 'https://github.com/vimwiki/vimwiki.git'
     " Easily Create Gists
