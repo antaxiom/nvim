@@ -47,7 +47,7 @@ let g:vimwiki_list = [{'path': '~/Documents/notes/vimwiki/',
 " let g:vimwiki_folding = ''
 " let g:vimwiki_listsym_rejected = '✗'
 " let g:vimwiki_listsyms = '✗○◐●✓'
-" let g:vimwiki_global_ext = 1
+let g:vimwiki_global_ext = 0
 " let g:vimwiki_hl_cb_checked = 0
 
 

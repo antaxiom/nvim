@@ -1,4 +1,6 @@
-# NVCode
+# Mach 3 Nvim
+
+_Forked from Christian Chiarulli_
 
 ![NVCode pic](./utils/images/nvim.png)
 
@@ -9,7 +11,7 @@ The following will install this config if you have an existing config it will mo
 This script only supports Mac, Ubuntu and Arch
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/nvim/master/utils/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/antaxiom/nvim/master/utils/install.sh)
 ```
 
 ## Install Neovim
@@ -39,7 +41,7 @@ bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/nvim/master/
 ## Clone this repo into your config
 
 ```
-git clone https://github.com/ChristianChiarulli/nvim.git ~/.config/nvim
+git clone https://github.com/antaxiom/nvim.git ~/.config/nvim
 ```
 
 ## Install python & node support

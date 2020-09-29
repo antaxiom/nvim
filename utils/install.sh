@@ -66,8 +66,8 @@ installcocextensions() { \
 }
 
 cloneconfig() { \
-  echo "Cloning Nvim Mach 2 configuration"
-  git clone https://github.com/ChristianChiarulli/nvim.git ~/.config/nvim
+  echo "Cloning Nvim Mach 3 configuration"
+  git clone https://github.com/antaxiom/nvim.git ~/.config/nvim
 }
 
 moveoldnvim() { \
@@ -135,7 +135,7 @@ installextrapackages() { \
 }
 
 # Welcome
-echo 'Installing Nvim Mach 2'
+echo 'Installing Nvim Mach 3'
 
 # install pip
 which pip3 > /dev/null && echo "pip installed, moving on..." || asktoinstallpip
